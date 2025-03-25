@@ -18,6 +18,12 @@ int main() {
 	case 3:
 	    printf("B tech in Robotics\n");
             break;
+	case 4:
+	    printf("B tech in Electronics\n");
+	    break;
+	default:
+	    printf("Invalid input!\n");
+	    break;
     }
     return 0;
 }
