@@ -1,18 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
-    int a;
-    printf("Enter an integer: ");
-    scanf("%d", &a);
+    int branch;
 
-    // Corrected the print statement
-    printf("The entered integer is %d\n", a);
+    // Input the day number from the user
+    printf("Enter a number between 1 and 4: ");
+    scanf("%d", &branch);
 
-    // Example of if-else
-    if (a % 2 == 0) {
-        printf("The number is even.\n");
-    } else {
-        printf("The number is odd.\n");
-    }
-
-    return 0;
-}
+    // Use a switch statement to print the corresponding day of the week
+    switch (branch) {
+        case 1:
+            printf("B tech in CSE\n");
+            break;
+        case 2:
+	    printf("B tech in CSE AIML\n);
